@@ -16,6 +16,7 @@ I have collapsed projects from all years in the dataset, binning launch date int
 ![Screenshot with Pivot Table] (/Launch_Date_Table.png)
 
 The raw number of projects with each potential outcome is plotted on the y axis, with calendar month on the x axis. 
+
 ![Outcomes by Month of Launch] (/Theater_Outcomes_vs_Launch.png) 
 
 There are very few canceled projects, and they are generally evenly distributed across the months. Therefore the distance between the lines for successful and failed projects reflects the relative likelihood of success.
@@ -25,6 +26,7 @@ There are very few canceled projects, and they are generally evenly distributed 
 I then narrowed my analysis to specifically those theater projects which were launched to fund a play. This dataset includes 1043 projects, with a success rate of 67%. The funding goals for these projects ranged from $1 to $200,000. The distribution of goals is highly skewed, with half the projects having a goal of less than 5000 dollars. The projects were binned in $5000 increments except for these, which are separated into <1000 and 1000-4900. All 12 projects with goals >50000 are collapsed into one bin. 
 
 The percentage of successful and failed projects for each funding goal increment is plotted on the y-axis. 
+
 ![Outcomes by Funding Goal] (/Outcomes_vs_Goals.png)
 
 ### Challenges and Difficulties Encountered
