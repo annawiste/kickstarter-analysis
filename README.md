@@ -1,7 +1,7 @@
 # Kickstarting with Excel
 
 ## Overview of Project
-This project contains an analysis of outcomes from Kickstarter projects lunched between 2009 and 2017 which fall in the theater category.
+This project contains an analysis of outcomes from Kickstarter projects launched between 2009 and 2017 which fall in the theater category.
 
 ### Purpose
 This project is intended to provide insights for planning the launch of a Kickstarter project designed to fund a new play, in order to maximize the likelihood the project will be successful. I focused on two areas: the time of year for lauch and the fundraising goal.
@@ -13,7 +13,6 @@ There were 1369 completed theater projects within this dataset, and I focused on
 
 ### Analysis of Outcomes Based on Launch Date
 I have collapsed projects from all years in the dataset, binning launch date into the calendar months. 
-![Screenshot with Pivot Table] (Launch_Date_Table.png)
 
 The raw number of projects with each potential outcome is plotted on the y axis, with calendar month on the x axis. 
 
@@ -24,6 +23,7 @@ There are very few canceled projects, and they are generally evenly distributed 
 
 ### Analysis of Outcomes Based on Goals
 I then narrowed my analysis to specifically those theater projects which were launched to fund a play. This dataset includes 1043 projects, with a success rate of 67%. The funding goals for these projects ranged from $1 to $200,000. The distribution of goals is highly skewed, with half the projects having a goal of less than 5000 dollars. The projects were binned in $5000 increments except for these, which are separated into <1000 and 1000-4900. All 12 projects with goals >50000 are collapsed into one bin. 
+![Table with counts for each funding goal increment](/resources/Play_Outcomes_Goals.png)
 
 The percentage of successful and failed projects for each funding goal increment is plotted on the y-axis. 
 
