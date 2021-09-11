@@ -17,7 +17,7 @@ I have collapsed projects from all years in the dataset, binning launch date int
 
 The raw number of projects with each potential outcome is plotted on the y axis, with calendar month on the x axis. 
 
-![Outcomes by Month of Launch] (/resources/Theater_Outcomes_vs_Launch.png) 
+![Outcomes by Month of Launch](/resources/Theater_Outcomes_vs_Launch.png) 
 
 There are very few canceled projects, and they are generally evenly distributed across the months. Therefore the distance between the lines for successful and failed projects reflects the relative likelihood of success.
 
@@ -27,7 +27,7 @@ I then narrowed my analysis to specifically those theater projects which were la
 
 The percentage of successful and failed projects for each funding goal increment is plotted on the y-axis. 
 
-![Outcomes by Funding Goal] (resources/Outcomes_vs_Goals.png)
+![Outcomes by Funding Goal](resources/Outcomes_vs_Goals.png)
 
 ### Challenges and Difficulties Encountered
 Initially I had some challenges with achieving the formatting I wanted in the PivotTable, and so in my graph. When initially adding the date launched in the Rows field, I had the Quarters appear in the table. At first I simply went and did a brute force workaround by generating a Month column and using that, but then I realized that I only had to remove the Quarters field that Excel had generated, and I would then have the data binned by month. 
